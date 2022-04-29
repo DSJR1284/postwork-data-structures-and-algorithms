@@ -1,11 +1,9 @@
 function reverseString(str) {
-  let reversed = "";
-
-  for (let i = str.length - 1; i > -1; --i) {
-    reversed = reversed + str[i];
-  }
-
-  return reversed;
+  let reversed = "";      
+  for (var i = str.length - 1; i >= 0; i--){         
+    reversed += str[i];  
+  }     
+return reversed;
 }
 
 console.log("Expecting: 'ih'");
@@ -27,6 +25,11 @@ console.log("Expecting: '' (empty string)");
 console.log(reverseString(''));
 
 // Please add your pseudocode to this file
+/* 
+1)Take in a string 
+2)Check the length of the string. 
+3)Reverse the string 
+4)Print it out */ 
 /**************************************************
  * initialize a variable called reversed with an empty string
  * 
