@@ -39,11 +39,8 @@ module.exports = fibonacci;
 2) Take the sum of of the loop and add the next two numbers to get the next number in the sequence. 
 */
 
-
-
-
 // And a written explanation of your solution
 /* Have a function that takes in a arg of num
 we set variables for a and b and a value. 
 The we loop throguh the sequence using a while loop. 
-While num is greater than or equal to 0. I take the value set it to a and a + b equal the value then set b equal to the value and decriment number and return b  
+While num is greater than or equal to 0. I take the value set it to a and a + b equal the value then set b equal to the value and decriment number and return b.  

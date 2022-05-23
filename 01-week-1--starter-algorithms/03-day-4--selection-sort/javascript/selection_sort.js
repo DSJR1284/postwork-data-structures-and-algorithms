@@ -2,6 +2,8 @@ function selectionSort(arr) {
   // type your code here
 }
 
+/* Sorting throguh an array and take the lowest value number and put it in numerical order in the array */
+
 if (require.main === module) {
   // add your own tests in here
   console.log("Expecting: [-1, 2, 3, 5]");
